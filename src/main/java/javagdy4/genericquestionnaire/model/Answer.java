@@ -7,9 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Question {
-
-    private String content;
-
-
+public class Answer {
+    private String questionContent;
+    private String answer;
 }

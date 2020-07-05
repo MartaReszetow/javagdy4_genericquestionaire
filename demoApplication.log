@@ -1,0 +1,30 @@
+2020-07-05 11:52:17,861[main] INFO  javagdy4.genericquestionnaire.Main  - Please enter command [listQuestions]:
+2020-07-05 11:52:30,137[main] INFO  javagdy4.genericquestionnaire.FileLoader  - {1={content=Czy lubisz koty?}, 2={content=Czy lubisz psy?}}
+2020-07-05 11:52:30,146[main] INFO  javagdy4.genericquestionnaire.Main  - 1 -> {content=Czy lubisz koty?}
+2020-07-05 11:52:30,147[main] INFO  javagdy4.genericquestionnaire.Main  - 2 -> {content=Czy lubisz psy?}
+2020-07-05 11:52:30,147[main] INFO  javagdy4.genericquestionnaire.Main  - Please enter command [listQuestions]:
+2020-07-05 12:27:39,564[main] INFO  javagdy4.genericquestionnaire.Main  - Please enter command [listQuestions]:
+2020-07-05 12:27:55,546[main] INFO  javagdy4.genericquestionnaire.FileLoader  - {1={content=Czy lubisz koty?}, 2={content=Czy lubisz psy?}}
+2020-07-05 12:27:55,550[main] INFO  javagdy4.genericquestionnaire.Main  - Question: {content=Czy lubisz koty?}
+2020-07-05 12:28:01,844[main] INFO  javagdy4.genericquestionnaire.Main  - Question: {content=Czy lubisz psy?}
+2020-07-05 12:28:03,549[main] ERROR javagdy4.genericquestionnaire.FileLoader  - Error while loading json file:odpowiedzi.json:
+java.io.FileNotFoundException: odpowiedzi.json (Nie można odnaleźć określonego pliku)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at com.fasterxml.jackson.core.JsonFactory.createParser(JsonFactory.java:916)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3090)
+	at javagdy4.genericquestionnaire.FileLoader.load(FileLoader.java:29)
+	at javagdy4.genericquestionnaire.Main.handleQuestionnaire(Main.java:51)
+	at javagdy4.genericquestionnaire.Main.main(Main.java:28)
+2020-07-05 12:28:03,603[main] INFO  javagdy4.genericquestionnaire.Main  - Please enter command [listQuestions]:
+2020-07-05 12:28:53,363[main] INFO  javagdy4.genericquestionnaire.Main  - Please enter command [listQuestions]:
+2020-07-05 12:28:56,692[main] INFO  javagdy4.genericquestionnaire.Main  - Please enter command [listQuestions]:
+2020-07-05 12:28:58,267[main] INFO  javagdy4.genericquestionnaire.Main  - Please enter command [listQuestions]:
+2020-07-05 12:28:59,775[main] INFO  javagdy4.genericquestionnaire.Main  - Please enter command [listQuestions]:
+2020-07-05 12:29:08,944[main] INFO  javagdy4.genericquestionnaire.FileLoader  - {1={content=Czy lubisz koty?}, 2={content=Czy lubisz psy?}}
+2020-07-05 12:29:08,948[main] INFO  javagdy4.genericquestionnaire.Main  - Question: {content=Czy lubisz koty?}
+2020-07-05 12:29:10,779[main] INFO  javagdy4.genericquestionnaire.Main  - Question: {content=Czy lubisz psy?}
+2020-07-05 12:29:11,595[main] INFO  javagdy4.genericquestionnaire.FileLoader  - {0={answers=[{questionContent=1, answer=tak}, {questionContent=2, answer=tak}]}}
+2020-07-05 12:29:11,640[main] INFO  javagdy4.genericquestionnaire.Main  - Please enter command [listQuestions]:
+2020-07-05 12:29:13,075[main] INFO  javagdy4.genericquestionnaire.Main  - Please enter command [listQuestions]:
